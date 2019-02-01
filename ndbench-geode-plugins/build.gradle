@@ -3,6 +3,6 @@ dependencies {
     compile project(':ndbench-api')
 
     testCompile 'org.mockito:mockito-all:1.10.19'
-    compile 'org.springframework.data:spring-data-geode:1.0.0.INCUBATING-RELEASE'
+    compile group: 'org.springframework.data', name: 'spring-data-geode', version: '2.1.4.RELEASE'
 
 }

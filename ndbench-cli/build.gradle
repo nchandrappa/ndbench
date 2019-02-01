@@ -27,14 +27,14 @@ repositories {
 dependencies {
     compile project(':ndbench-core')
     compile project(':ndbench-api')
-    compile project(':ndbench-cass-plugins')
+//    compile project(':ndbench-cass-plugins')
     // compile project(':ndbench-dynamodb-plugins') // Commented as part of https://github.com/Netflix/ndbench/issues/197
-    compile project(':ndbench-cockroachdb-plugins')
-    compile project(':ndbench-dyno-plugins')
-    compile project(':ndbench-es-plugins')
+//    compile project(':ndbench-cockroachdb-plugins')
+//    compile project(':ndbench-dyno-plugins')
+//    compile project(':ndbench-es-plugins')
     compile project(':ndbench-geode-plugins')
-    compile project(':ndbench-janusgraph-plugins')
-    compile project(':ndbench-sample-plugins')
+//    compile project(':ndbench-janusgraph-plugins')
+//    compile project(':ndbench-sample-plugins')
     testCompile group: 'junit', name: 'junit', version: '4.12'
     /**
     * DaxJavaClient dependency is commented as part of https://github.com/Netflix/ndbench/issues/197
